@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import "../css/Home.css";
 
 function Home() {
-  // fixed Header
+  // fixed Headerr
   //
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
