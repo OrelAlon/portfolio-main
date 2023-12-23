@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.about {
+  background: #191919;
+  font-family: "Neucha", cursive;
+}
+
+img.about__img {
+  border-radius: 10px;
+  width: 100%;
+}
+h1.about__heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: start;
+  font-family: "Neucha", cursive;
+  font-size: 60px;
+}
+/* tech-icon
+ */
+
+.icon-title {
+  color: #fff;
+  text-align: center;
+  font-size: small;
+}
+.tech-stack {
+  /* border: 1px solid; */
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin: 20px;
+  width: 200px;
+  height: 130px;
+}
+.blue {
+  box-shadow: 2px 5px 28px rgb(66, 111, 201);
+}
+.green {
+  box-shadow: 2px 5px 28px rgb(20, 189, 23);
+}
+.orange {
+  box-shadow: 2px 5px 28px orange;
+}
+.yellow {
+  box-shadow: 2px 5px 28px yellow;
+}
+.white {
+  box-shadow: 2px 5px 28px white;
+}
+
+.tech-stack:hover {
+  transition-duration: 1000ms;
+
+  transform: scale(1.2);
+}
+.tech-stack {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin: 10px;
+  width: 170px;
+  height: 95px;
+}
+.tech-icon {
+  width: 50px;
+}
+.p__color {
+  font-family: "Neucha", cursive;
+  font-size: 22px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+  .p__color {
+    font-size: 15px !important;
+    font-family: "Neucha", cursive;
+  }
+
+  @media only screen and (max-width: 625px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 15px 5px;
+      grid-template-areas:
+        ". ."
+        ". ."
+        ". .";
+      /* margin-left: -30px; */
+    }
+    .tech-stack {
+      width: 140px;
+      height: 95px;
+    }
+  }
+}
